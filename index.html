@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BarberShop</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,19 +21,20 @@
       <a href="./index.html">
         <img src="./images/logo.svg" alt="Logo BarberShop" />
       </a>
-
-      <nav class="main-navigation">
-        <ul>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./services">Services and Prices</a></li>
-          <li><a href="./barbers">Barbers</a></li>
-          <li><a href="./contacts">Contacts</a></li>
-        </ul>
-      </nav>
-
-      <a href="tel:+380441111111" class="phone-number">+38 044 111 11 11</a>
-      <button class="button" type="button">Book a Service</button>
-
+      <div class="nav-container">
+        <nav class="main-navigation">
+          <ul>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./services">Services and Prices</a></li>
+            <li><a href="./barbers">Barbers</a></li>
+            <li><a href="./contacts">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="contact-container">
+          <a href="tel:+380441111111" class="phone-number">+38 044 111 11 11</a>
+          <button class="button" type="button">Book a Service</button>
+        </div>
+      </div>
       <section>
         <a href="https://www.youtube.com" target="_blank">YouTube</a>
         <a href="https://www.instagram.com" target="_blank">Instagram</a>

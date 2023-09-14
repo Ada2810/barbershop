@@ -7,6 +7,28 @@
 
 .global-header {
     background-color: #333;
+    display: flex;
+}
+
+.nav-container {
+    display: flex;
+    width: 80%;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.contact-container {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.global-header .main-navigation ul {
+    display: flex;
+    width: 405px;
+    list-style-type: none;
+    justify-content: space-between;
 }
 
 .global-header .main-navigation a:link,
